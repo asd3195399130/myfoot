@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+    <script src=""></script>
+  </head>
+  <style>
+    #boos {
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(to right, #0f9b0f, #000000);
+      overflow: hidden;
+    }
+    #boos ::after {
+      width: 100%;
+      height: 100%;
+      background: red;
+      z-index: 999;
+    }
+    #boos:hover ::after {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(1, 1, 1, 0.5));
+    }
+  </style>
+  <body>
+    <div id="boos">
+      <h1>僵尸asd</h1>
+      <p>3669</p>
+    </div>
+  </body>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js"></script>
+  <script></script>
+</html>
